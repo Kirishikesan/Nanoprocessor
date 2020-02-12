@@ -1,0 +1,229 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 12612
+License: Customer
+
+Current time: 	Mon Nov 26 13:27:31 IST 2018
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 53 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Programs/Vivado/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Programs/Vivado/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: F:/CPU
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Programs/Vivado/Vivado
+HDI_APPROOT: D:/Programs/Vivado/Vivado/2018.2
+RDI_DATADIR: D:/Programs/Vivado/Vivado/2018.2/data
+RDI_BINDIR: D:/Programs/Vivado/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Programs/Vivado/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/CPU/vivado.log
+Vivado journal file location: 	F:/CPU/vivado.jou
+Engine tmp dir: 	F:/CPU/.Xil/Vivado-12612-DESKTOP-VA2BN9H
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programs/Vivado/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Programs/Vivado/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Programs/Vivado/Vivado/2018.2
+XILINX_SDK: D:/Programs/Vivado/SDK/2018.2
+XILINX_VIVADO: D:/Programs/Vivado/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Programs/Vivado/Vivado/2018.2
+
+
+GUI allocated memory:	193 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 520 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+47342kb) [00:00:10]
+// [Engine Memory]: 520 MB (+393951kb) [00:00:10]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: F:\CPU\CPU.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/CPU/CPU.xpr 
+// [GUI Memory]: 61 MB (+11421kb) [00:00:12]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 550 MB. GUI used memory: 34 MB. Current time: 11/26/18 1:27:33 PM IST
+// Tcl Message: open_project F:/CPU/CPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado/Vivado/2018.2/data/ip'. 
+// [Engine Memory]: 558 MB (+12576kb) [00:00:17]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 602 MB (+16493kb) [00:00:20]
+// [Engine Memory]: 635 MB (+2825kb) [00:00:23]
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:15 . Memory (MB): peak = 877.902 ; gain = 101.074 
+// Project name: CPU; location: F:/CPU; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // B (D, ck)
+// PAPropertyPanels.initPanels (Basys3Labs.xdc) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3Labs.xdc]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys3Labs.xdc]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Basys3Labs.xdc", 143, 184); // ce (w, ck)
+// [GUI Memory]: 65 MB (+780kb) [00:00:42]
+// [GUI Memory]: 69 MB (+1120kb) [00:00:47]
+// Elapsed time: 64 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys3Labs.xdc", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1, true); // B (D, ck) - Node
+// [GUI Memory]: 75 MB (+2276kb) [00:01:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("CPU.vhd", 192, 216); // ce (w, ck)
+// Elapsed time: 24 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd), PC : ProgramCounter(Behavioral) (ProgramCounter.vhd)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd), PC : ProgramCounter(Behavioral) (ProgramCounter.vhd), Slow_Clk0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd), PC : ProgramCounter(Behavioral) (ProgramCounter.vhd), Slow_Clk0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("Slow_Clk.vhd", 110, 143); // ce (w, ck)
+typeControlKey((HResource) null, "Slow_Clk.vhd", 'c'); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1, true); // B (D, ck) - Node
+// [GUI Memory]: 81 MB (+2553kb) [00:02:23]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1, true); // B (D, ck) - Node
+selectCodeEditor("CPU.vhd", 278, 231); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 434, 215); // ce (w, ck)
+// [Engine Memory]: 684 MB (+17948kb) [00:02:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 684 MB. GUI used memory: 42 MB. Current time: 11/26/18 1:29:49 PM IST
+// Elapsed time: 11 seconds
+selectCodeEditor("CPU.vhd", 744, 136); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 116, 205); // ce (w, ck)
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 26, 208); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 26, 208, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU.vhd", 164, 219); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 76, 263); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 76, 263, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU.vhd", 155, 259); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 209, 217); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 208, 255); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Slow_Clk.vhd", 2); // k (j, ck)
+selectCodeEditor("Slow_Clk.vhd", 250, 125); // ce (w, ck)
+selectCodeEditor("Slow_Clk.vhd", 134, 213); // ce (w, ck)
+selectCodeEditor("Slow_Clk.vhd", 407, 212); // ce (w, ck)
+selectCodeEditor("Slow_Clk.vhd", 407, 212, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Slow_Clk.vhd", 415, 212); // ce (w, ck)
+selectCodeEditor("Slow_Clk.vhd", 415, 212, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Slow_Clk.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("Slow_Clk.vhd", 140, 214); // ce (w, ck)
+selectCodeEditor("Slow_Clk.vhd", 140, 214, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "Slow_Clk.vhd", 'v'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU.vhd", 1); // k (j, ck)
+selectCodeEditor("CPU.vhd", 174, 89); // ce (w, ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("CPU.vhd", 135, 52); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 135, 48); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("CPU.vhd", 128, 116); // ce (w, ck)
+typeControlKey((HResource) null, "CPU.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 66 seconds
+selectCodeEditor("CPU.vhd", 326, 127); // ce (w, ck)
+// [GUI Memory]: 85 MB (+534kb) [00:05:50]
+// Elapsed time: 19 seconds
+selectCodeEditor("CPU.vhd", 112, 199); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 176, 193); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 176, 193, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU.vhd", 176, 200); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 235, 195); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 195, 198); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 195, 198, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 650, 31); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 50, 7); // ce (w, ck)
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 216, 186); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("CPU.vhd", 68, 27); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 68, 27, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 214, 210); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 188, 240); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 180, 248); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 180, 248, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("CPU.vhd", 134, 127); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 134, 127, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU.vhd", 253, 165); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 163, 48); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 163, 48, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 163, 48); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 163, 123); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 162, 125, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 159, 207); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 159, 207, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 216, 259); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 159, 234); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 159, 234, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 160, 80); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 160, 80, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 155, 179); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 155, 179, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 186, 226); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 156, 259); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 156, 259, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("CPU.vhd", 163, 264); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 163, 264, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 161, 66); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 161, 66, false, false, false, false, true); // ce (w, ck) - Double Click
+typeControlKey((HResource) null, "CPU.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("CPU.vhd", 176, 242); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 90 MB (+413kb) [00:08:10]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aj (ck): Save Project: addNotify

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../CPU.srcs/sources_1/imports/LAB2/Instructiondecorder/Instructiondecorder.srcs/sources_1/new/InsDecoder.vhd" \
+"../../../../CPU.srcs/sim_1/imports/LAB2/Instructiondecorder/Instructiondecorder.srcs/sim_1/new/TB_InsDecoder.vhd" \
+
+# Do not sort compile order
+nosort

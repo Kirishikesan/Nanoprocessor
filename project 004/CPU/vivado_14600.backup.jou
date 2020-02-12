@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov 29 22:30:13 2018
+# Process ID: 14600
+# Current directory: C:/Users/NILAAN/Desktop/project 003/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13756 C:\Users\NILAAN\Desktop\project 003\CPU\CPU.xpr
+# Log file: C:/Users/NILAAN/Desktop/project 003/CPU/vivado.log
+# Journal file: C:/Users/NILAAN/Desktop/project 003/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_TSB4_bit_8_way.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_TSB4_bit_8_way.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_TSB4_bit_8_way [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_TSB4_bit_8_way.tcl
+close_sim
+launch_simulation
+source TB_TSB4_bit_8_way.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Decoder_3_to_8 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_Decoder_3_to_8.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_InsDecoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_InsDecoder.tcl
+close_sim
+current_sim simulation_3
+close_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_RCA_3 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_RCA_3.tcl
+close_sim
+launch_simulation
+source TB_RCA_3.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_RegBank [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_CPU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_CPU.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source TB_CPU.tcl
+close_sim
+launch_simulation
+source TB_CPU.tcl
+synth_design -rtl -name rtl_1
+close_sim
+current_sim simulation_10
+close_sim
+close_sim

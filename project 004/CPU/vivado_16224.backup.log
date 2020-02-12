@@ -1,0 +1,560 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 28 11:32:26 2018
+# Process ID: 16224
+# Current directory: C:/Users/NILAAN/Desktop/project 003/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8656 C:\Users\NILAAN\Desktop\project 003\CPU\CPU.xpr
+# Log file: C:/Users/NILAAN/Desktop/project 003/CPU/vivado.log
+# Journal file: C:/Users/NILAAN/Desktop/project 003/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/SOFTWARE/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 753.934 ; gain = 74.211
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal y expects 8 [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd:73]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_regbank in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 780.223 ; gain = 8.762
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal y expects 8 [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd:73]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_regbank in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 798.492 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal y expects 8 [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd:73]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_regbank in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 834.629 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_LUT_8_12.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_LUT_8_12.vhd}}
+update_compile_order -fileset sim_1
+set_property top TB_LUT_8_12 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_LUT_8_12' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_LUT_8_12_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/LUT_8_12.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_8_12
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_LUT_8_12.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_LUT_8_12
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_LUT_8_12_behav xil_defaultlib.TB_LUT_8_12 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_8_12 [lut_8_12_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_lut_8_12
+Built simulation snapshot TB_LUT_8_12_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/NILAAN/Desktop/project -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/NILAAN/Desktop/project" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov 28 12:07:46 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 857.586 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_LUT_8_12_behav -key {Behavioral:sim_1:Functional:TB_LUT_8_12} -tclbatch {TB_LUT_8_12.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_LUT_8_12.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 858.715 ; gain = 1.129
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_LUT_8_12_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:29 . Memory (MB): peak = 858.715 ; gain = 1.129
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/tmp123.vhd} w ]
+add_files {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/tmp123.vhd}}
+update_compile_order -fileset sources_1
+set_property top TB_RegBank [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegBank
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal y expects 8 [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd:73]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_regbank in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 875.355 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: CPU
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 981.063 ; gain = 105.707
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:45]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Slow_Clk.vhd:34' bound to instance 'Slow_Clk0' of component 'Slow_Clk' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/ProgramCounter.vhd:34' bound to instance 'PC' of component 'ProgramCounter' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/ProgramCounter.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (2#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/ProgramCounter.vhd:41]
+INFO: [Synth 8-3491] module 'LUT_8_12' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/LUT_8_12.vhd:34' bound to instance 'LUT_8_12_0' of component 'LUT_8_12' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'LUT_8_12' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/LUT_8_12.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'LUT_8_12' (3#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/LUT_8_12.vhd:39]
+INFO: [Synth 8-3491] module 'TSB3_bit_2_way' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB3_bit_2_way.vhd:35' bound to instance 'CounterTSB' of component 'TSB3_bit_2_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'TSB3_bit_2_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB3_bit_2_way.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'TSB3_bit_2_way' (4#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB3_bit_2_way.vhd:43]
+INFO: [Synth 8-3491] module 'RCA_3' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd:34' bound to instance 'RCA_3A' of component 'RCA_3' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'RCA_3' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'HA' (5#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd:48]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'FA' (6#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd:62]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'RCA_3' (7#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd:42]
+INFO: [Synth 8-3491] module 'InsDecoder' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Instructiondecorder/Instructiondecorder.srcs/sources_1/new/InsDecoder.vhd:34' bound to instance 'InsDec' of component 'InsDecoder' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'InsDecoder' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Instructiondecorder/Instructiondecorder.srcs/sources_1/new/InsDecoder.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'InsDecoder' (8#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Instructiondecorder/Instructiondecorder.srcs/sources_1/new/InsDecoder.vhd:49]
+INFO: [Synth 8-3491] module 'TSB4_bit_2_way' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/TSB4_bit_2_way.vhd:34' bound to instance 'ValToWrite' of component 'TSB4_bit_2_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'TSB4_bit_2_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/TSB4_bit_2_way.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'TSB4_bit_2_way' (9#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/TSB4_bit_2_way.vhd:42]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_A' of component 'Decoder_3_to_8' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_2_to_4..vhd:34' bound to instance 'Decoder_2_TO_4_0' of component 'Decoder_2_TO_4' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_2_to_4..vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (10#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_2_to_4..vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_2_to_4..vhd:34' bound to instance 'Decoder_2_TO_4_1' of component 'Decoder_2_TO_4' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (11#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R0' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:211]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (12#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:41]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R1' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:216]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R2' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:221]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R3' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:226]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R4' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:231]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R5' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:236]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R6' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:241]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'R7' of component 'Reg' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:246]
+INFO: [Synth 8-3491] module 'TSB4_bit_8_way' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB4_bit_8_way.vhd:34' bound to instance 'AU_Reg_Sel1' of component 'TSB4_bit_8_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:253]
+INFO: [Synth 8-638] synthesizing module 'TSB4_bit_8_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB4_bit_8_way.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'TSB4_bit_8_way' (13#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB4_bit_8_way.vhd:49]
+INFO: [Synth 8-3491] module 'TSB4_bit_8_way' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/TSB4_bit_8_way.vhd:34' bound to instance 'AU_Reg_Sel2' of component 'TSB4_bit_8_way' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:266]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:34' bound to instance 'AU' of component 'RCA_4' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:45]
+INFO: [Synth 8-3491] module 'FA1' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:34' bound to instance 'FA_0' of component 'FA1' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'FA1' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:52]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'FA1' (14#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:42]
+INFO: [Synth 8-3491] module 'FA1' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:34' bound to instance 'FA_1' of component 'FA1' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:69]
+INFO: [Synth 8-3491] module 'FA1' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:34' bound to instance 'FA_2' of component 'FA1' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:76]
+INFO: [Synth 8-3491] module 'FA1' declared at 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd:34' bound to instance 'FA_3' of component 'FA1' [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (15#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (16#1) [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/CPU.vhd:45]
+WARNING: [Synth 8-3331] design RCA_4 has unconnected port C_in
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1023.539 ; gain = 148.184
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1023.539 ; gain = 148.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1023.539 ; gain = 148.184
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Finished Parsing XDC File [C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/constrs_1/imports/Downloads/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:35 . Memory (MB): peak = 1350.590 ; gain = 475.234
+68 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1350.590 ; gain = 475.234
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_Reg.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_Reg.vhd}}
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/tmp123.vhd}}]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegBank
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegBank [regbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_regbank
+Built simulation snapshot TB_RegBank_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1385.742 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_RegBank_behav -key {Behavioral:sim_1:Functional:TB_RegBank} -tclbatch {TB_RegBank.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_RegBank.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1398.527 ; gain = 12.766
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_RegBank_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 1398.527 ; gain = 12.785
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegBank [regbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_regbank
+Built simulation snapshot TB_RegBank_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_RegBank_behav -key {Behavioral:sim_1:Functional:TB_RegBank} -tclbatch {TB_RegBank.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_RegBank.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 1398.527 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:21 . Memory (MB): peak = 1398.527 ; gain = 0.000
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:27 . Memory (MB): peak = 1398.527 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_RegBank_behav -key {Behavioral:sim_1:Functional:TB_RegBank} -tclbatch {TB_RegBank.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_RegBank.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:03 ; elapsed = 00:01:18 . Memory (MB): peak = 1398.527 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:01:21 . Memory (MB): peak = 1398.527 ; gain = 0.000
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:01:25 . Memory (MB): peak = 1398.527 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_RegBank' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_RegBank_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 078b07809800449f9647c34b810e337e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RegBank_behav xil_defaultlib.TB_RegBank -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegBank [regbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_regbank
+Built simulation snapshot TB_RegBank_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/NILAAN/Desktop/project 003/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_RegBank_behav -key {Behavioral:sim_1:Functional:TB_RegBank} -tclbatch {TB_RegBank.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_RegBank.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:48 . Memory (MB): peak = 1405.680 ; gain = 0.000
+INFO: [Common 17-344] 'run' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:50 . Memory (MB): peak = 1405.680 ; gain = 7.152
+INFO: [Common 17-344] 'xsim' was cancelled
+INFO: [Vivado 12-5357] 'simulate' step aborted
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:56 . Memory (MB): peak = 1405.680 ; gain = 7.152
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 28 13:09:51 2018...

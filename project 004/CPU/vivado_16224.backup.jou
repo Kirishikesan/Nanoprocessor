@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 28 11:32:26 2018
+# Process ID: 16224
+# Current directory: C:/Users/NILAAN/Desktop/project 003/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8656 C:\Users\NILAAN\Desktop\project 003\CPU\CPU.xpr
+# Log file: C:/Users/NILAAN/Desktop/project 003/CPU/vivado.log
+# Journal file: C:/Users/NILAAN/Desktop/project 003/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_LUT_8_12.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_LUT_8_12.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_LUT_8_12 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_LUT_8_12.tcl
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/tmp123.vhd} w ]
+add_files {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/tmp123.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_RegBank [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+synth_design -rtl -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_Reg.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sim_1/new/TB_Reg.vhd}}
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  {{C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/tmp123.vhd}}]
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+close_sim

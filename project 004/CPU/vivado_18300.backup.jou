@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Nov 28 13:09:59 2018
+# Process ID: 18300
+# Current directory: C:/Users/NILAAN/Desktop/project 003/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11856 C:\Users\NILAAN\Desktop\project 003\CPU\CPU.xpr
+# Log file: C:/Users/NILAAN/Desktop/project 003/CPU/vivado.log
+# Journal file: C:/Users/NILAAN/Desktop/project 003/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_simulation
+source TB_RegBank.tcl
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} 74
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} -line 74
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} 74
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} -line 74
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} 74
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} -line 74
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd} 48
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd} -line 48
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd} 48
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd} -line 48
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd} 48
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd} -line 48
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} 75
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} -line 75
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} 75
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} -line 75
+add_bp {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} 75
+remove_bps -file {C:/Users/NILAAN/Desktop/project 003/CPU/CPU.srcs/sources_1/new/RegBank.vhd} -line 75
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Decoder_3_to_8 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_Decoder_3_to_8.tcl
+close_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_RegBank [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim
+launch_simulation
+source TB_RegBank.tcl
+close_sim

@@ -1,0 +1,40 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/AU_7_seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/new/CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CPU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/Decoder_2_to_4..vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/FA1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/LAB2/Instructiondecorder/Instructiondecorder.srcs/sources_1/new/InsDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InsDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/new/LUT_8_12.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_8_12
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/new/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/LAB2/RCA3/LAB 9-10.srcs/sources_1/new/RCA_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/LAB2/Reg/Reg.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/new/RegBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegBank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/TSB3_bit_2_way.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TSB3_bit_2_way
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/new/TSB4_bit_2_way.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TSB4_bit_2_way
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sources_1/imports/new/TSB4_bit_8_way.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TSB4_bit_8_way
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NILAAN/Desktop/project 004/CPU/CPU.srcs/sim_1/new/TB_CPU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_CPU

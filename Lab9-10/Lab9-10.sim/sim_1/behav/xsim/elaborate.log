@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/SOFTWARE/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 6b864d870ba646c39fb2b724f8dadda1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_RCA_3_behav xil_defaultlib.TB_RCA_3 -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.TB_RCA_3 in library work located at xsim.dir/work.

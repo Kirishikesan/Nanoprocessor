@@ -1,0 +1,121 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 2932
+License: Customer
+
+Current time: 	Mon Nov 26 13:40:19 IST 2018
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 53 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Programs/Vivado/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Programs/Vivado/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	user
+User home directory: C:/Users/user
+User working directory: F:/CPU
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Programs/Vivado/Vivado
+HDI_APPROOT: D:/Programs/Vivado/Vivado/2018.2
+RDI_DATADIR: D:/Programs/Vivado/Vivado/2018.2/data
+RDI_BINDIR: D:/Programs/Vivado/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/user/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Programs/Vivado/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/CPU/vivado.log
+Vivado journal file location: 	F:/CPU/vivado.jou
+Engine tmp dir: 	F:/CPU/.Xil/Vivado-2932-DESKTOP-VA2BN9H
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programs/Vivado/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Programs/Vivado/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Programs/Vivado/Vivado/2018.2
+XILINX_SDK: D:/Programs/Vivado/SDK/2018.2
+XILINX_VIVADO: D:/Programs/Vivado/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Programs/Vivado/Vivado/2018.2
+
+
+GUI allocated memory:	159 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 513 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 52 MB (+51819kb) [00:00:15]
+// [Engine Memory]: 475 MB (+346966kb) [00:00:15]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: F:\CPU\CPU.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project F:/CPU/CPU.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 553 MB. GUI used memory: 34 MB. Current time: 11/26/18 1:40:21 PM IST
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/CPU/CPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 553 MB (+56152kb) [00:00:21]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 622 MB (+43422kb) [00:00:27]
+// [GUI Memory]: 57 MB (+2930kb) [00:00:31]
+// [GUI Memory]: 64 MB (+3724kb) [00:00:31]
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:16 . Memory (MB): peak = 822.223 ; gain = 128.367 
+// Project name: CPU; location: F:/CPU; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// [Engine Memory]: 655 MB (+2158kb) [00:00:36]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 660 MB. GUI used memory: 39 MB. Current time: 11/26/18 1:40:42 PM IST
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (CPU.vhd) elapsed time: 0.3s
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1, true); // B (D, ck) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1); // B (D, ck)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU(Behavioral) (CPU.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+// [GUI Memory]: 71 MB (+4058kb) [00:01:18]
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
